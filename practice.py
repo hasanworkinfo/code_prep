@@ -124,7 +124,7 @@
 #         return ans
 
                                                             
-                                                            # Maximum Average Subarray I
+                                                            # Maximum Average Subarray I  in JAVA CODE
 # class Solution {
 #     public double findMaxAverage(int[] nums, int k) {
 #         int currentSum = 0;
