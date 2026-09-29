@@ -123,7 +123,4 @@
 #                         k-=1
 #         return ans
 
-print("hello")
-print(10+20)
-print("Hasan") 
-print("Hello Boy")
+
