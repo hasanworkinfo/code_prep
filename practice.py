@@ -158,4 +158,4 @@
 
 #         return 0 if res == float("inf") else res
 
-print("hasan")
+
