@@ -159,3 +159,26 @@
 #         return 0 if res == float("inf") else res
 
 
+                                        # Maximum Number of Vowels in a Substring of Given Length
+# class Solution:
+#     def maxVowels(self, s, k):
+#         vowels = "aeiou"
+#         count = 0
+#         for i in range(k):
+#             if s[i] in vowels:
+#                 count += 1
+#         max_count = count
+#         for i in range(k, len(s)):
+#             if s[i] in vowels:
+#                 count += 1
+#             if s[i - k] in vowels:
+#                 count -= 1
+#             max_count = max(max_count, count)
+#         return max_count
+
+        
+
+            
+
+            
+
