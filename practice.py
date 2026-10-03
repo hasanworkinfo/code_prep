@@ -176,10 +176,75 @@
 #             max_count = max(max_count, count)
 #         return max_count
 
-        
+                                     # Longest Substring Without Repeating Characters
 
-            
+# class Solution:
+#     def lengthOfLongestSubstring(self, s):
+#         left = 0
+#         char_set = set()
+#         max_length = 0
+#         for right in range(len(s)):
+#             while s[right] in char_set:
+#                 char_set.remove(s[left])
+#                 left += 1
+#             char_set.add(s[right])
+#             max_length = max(max_length, right - left + 1)
+#         return max_length
 
-            
+
+                                            # Max Consecutive Ones III    
+
+# class Solution:
+#     def longestOnes(self, nums, k):
+#         left = 0
+#         zeros = 0
+#         max_length = 0
+#         for right in range(len(nums)):
+#             if nums[right] == 0:
+#                 zeros += 1
+#             while zeros > k:
+#                 if nums[left] == 0:
+#                     zeros -= 1
+#                 left += 1
+#             max_length = max(max_length, right - left + 1)
+#         return max_length
+
+
+                                                # Fruit Into Baskets
+
+# class Solution:
+#     def totalFruit(self, fruits):
+#         left = 0
+#         count = {}
+#         max_length = 0
+#         for right in range(len(fruits)):
+#             count[fruits[right]] = count.get(fruits[right], 0) + 1
+#             while len(count) > 2:
+#                 count[fruits[left]] -= 1
+#                 if count[fruits[left]] == 0:
+#                     del count[fruits[left]]
+#                 left += 1
+#             max_length = max(max_length, right - left + 1)
+#         return max_length
+
+
+                                # Longest Repeating Character Replacement
+
+# class Solution:
+#     def characterReplacement(self, s, k):
+#         left = 0
+#         count = {}
+#         max_freq = 0
+#         max_length = 0
+#         for right in range(len(s)):
+#             count[s[right]] = count.get(s[right], 0) + 1
+#             max_freq = max(max_freq, count[s[right]])
+#             while (right - left + 1) - max_freq > k:
+#                 count[s[left]] -= 1
+#                 left += 1
+#             max_length = max(max_length, right - left + 1)
+#         return max_length
+
+
 
 
