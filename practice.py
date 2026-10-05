@@ -10,7 +10,7 @@
 
 
 
-                                                        # remove Element
+                                                    # remove Element
                                                         
 # class Solution:
 #     def removeElement(self,arr,target):
