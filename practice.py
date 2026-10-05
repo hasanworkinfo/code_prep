@@ -44,7 +44,7 @@
 #         return arr 
 
                                                             
-                                                      # Two Sum II - Input Array Is Sorted
+                                                    # Two Sum II - Input Array Is Sorted
 # class Solution:
 #     def twoSum(self,arr,target):
 #         left=0
