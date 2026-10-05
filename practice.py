@@ -33,7 +33,7 @@
 #             right-=1            
 
 
-                                                        # Move Zeroes
+                                                    # Move Zeroes
 # class Solution:
 #     def moveZeroes(self,arr):
 #         left=0
