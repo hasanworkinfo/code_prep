@@ -228,7 +228,7 @@
 #         return max_length
 
 
-                                # Longest Repeating Character Replacement
+                            # Longest Repeating Character Replacement
 
 # class Solution:
 #     def characterReplacement(self, s, k):
