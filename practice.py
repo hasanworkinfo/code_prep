@@ -73,7 +73,7 @@
 #                 right-=1
 #         return maxarea
 
-                                                      # Remove Duplicates from Sorted Array
+                                            # Remove Duplicates from Sorted Array
 # class Solution:
 #     def removeDuplicates(self,arr):
 #         i=0
