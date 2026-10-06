@@ -281,7 +281,7 @@
 
 
 
-                                         # LeetCode 1 — Two Sum ka HashMap solution
+                                        # LeetCode 1 — Two Sum ka HashMap solution
 
 # class Solution:
 #     def twoSum(self, nums, target):
