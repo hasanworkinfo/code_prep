@@ -159,7 +159,7 @@
 #         return 0 if res == float("inf") else res
 
 
-                                            # Maximum Number of Vowels in a Substring of Given Length
+                                        # Maximum Number of Vowels in a Substring of Given Length
 # class Solution:
 #     def maxVowels(self, s, k):
 #         vowels = "aeiou"
