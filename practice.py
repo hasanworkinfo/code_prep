@@ -144,7 +144,7 @@
 
 
 
-                                                 # Minimum Size Subarray Sum
+                                                # Minimum Size Subarray Sum
 # class Solution:
 #     def minSubArrayLen(self, target, nums):
 #         l, total = 0, 0
