@@ -325,7 +325,7 @@
 #         return True
 
 
-                                        # 387. First Unique Character in a String
+                                    # 387. First Unique Character in a String
 # class Solution:
 #     def firstUniqChar(self, s):
 #         count = {}
